@@ -30,7 +30,7 @@ fi
 #   exit 1
 # fi
 
-# echo "$kerberos_location"
+echo "$kerberos_location"
 # echo "$kerberos_username"
 # echo "$kerberos_password"
 
