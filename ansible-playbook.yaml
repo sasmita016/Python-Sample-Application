@@ -5,3 +5,9 @@
   tasks:
   - name: ansible version
     shell: "ansible --version"
+    register: result
+    
+  - debug:
+    msg: test message
+    var: result
+    verbosity: 2
