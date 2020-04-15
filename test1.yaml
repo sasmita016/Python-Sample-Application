@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    - name: Run ls.sh and output "ls /"
+      shell: ansible --version
+      register: out
+
+    - debug: var=out.stdout_lines
