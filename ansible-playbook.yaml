@@ -3,5 +3,5 @@
   become: yes
 
   tasks:
-  - name: Echo
-    shell: "echo Hello!"
+  - name: ansible version
+    shell: "ansible --version"
